@@ -1,6 +1,6 @@
 {
   "name": "The TMA Meteorology Lab",
   "tagline": "",
-  "body": " <iframe src=\"http://wunderground.com/personal-weather-station/dashboard?ID=KCTAVON14\"></iframe>",
+  "body": "<a href=\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCTAVON14\"><img src=\"http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=KCTAVON14\" height=\"160\" width=\"160\" border=\"0\" alt=\"Weather Underground PWS KCTAVON14\" /></a>\r\n\r\n<font size=\"32\">Here is today's TMA Weather Forecast:</font>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
