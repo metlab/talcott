@@ -1,6 +1,6 @@
 {
   "name": "The TMA Meteorology Lab",
   "tagline": "",
-  "body": " <iframe src=\"http://wunderground.com/personal-weather-station/dashboard?ID=KCTAVON14\" width=\"200\" height=\"200\" scrolling=\"no\"></iframe>",
+  "body": " <iframe src=\"http://wunderground.com/personal-weather-station/dashboard?ID=KCTAVON14\"></iframe>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
