@@ -1,6 +1,6 @@
 {
   "name": "The TMA Meteorology Lab",
   "tagline": "",
-  "body": "<a href=\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCTAVON14\"><img src=\"http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=KCTAVON14\" height=\"160\" width=\"160\" border=\"0\" alt=\"Weather Underground PWS KCTAVON14\" /></a>\r\n<div id=\"435132153205188537\" style=\"width: 100%; overflow-y: hidden;\" class=\"wcustomhtml\" align=\"left\">\r\n\r\n <font size=\"24\" contenteditable=\"true\">TMA Meteorology Lab Update:</font> ",
+  "body": "<a href=\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCTAVON14\"><img src=\"http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=KCTAVON14\" height=\"160\" width=\"160\" border=\"0\" alt=\"Weather Underground PWS KCTAVON14\" /></a>\r\n<div id=\"435132153205188537\" style=\"width: 100%; overflow-y: hidden;\" class=\"wcustomhtml\" align=\"left\">",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
