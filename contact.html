@@ -15,10 +15,8 @@ if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return fa
 if (frm.From.value == "") {alert('Email is required');frm.From.focus();return false;}
 if (frm.From.value.indexOf("@") < 1 || frm.From.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.From.focus();return false;}
 if (frm.Comments.value == "") {alert('Comments are required.');frm.Comments.focus();return false;}
-if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
 return true; }
 function ReloadCaptchaImage(captchaImageId) {
-var obj = document.getElementById(captchaImageId);
 var src = obj.src;
 var date = new Date();
 var pos = src.indexOf('&rad=');
@@ -43,10 +41,6 @@ return false; }
 <tr valign="top"><td> <i>Code:</i>
 <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
 </td><td>
-<a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us" title="HTML code for Contact Us form"
-style="margin-left:20px;"
-src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=KXFLJCGL5MP3&ImgType=2" /></a><br />
-<a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a> </td></tr>
 <input name="skip_Submit" type="submit" value="Submit" />
 </td></tr>
 </table><br />
