@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
 <input name="skip_WhereToSend" type="hidden" value="zainburki@outlook.com" />
-<input name="skip_SnapHostID" type="hidden" value="KXFLJCGL5MP3" />
+<input name="skip_SnapHostID" type="hidden" value="CJZE8K852SBJ" />
 <input name="skip_WhereToReturn" type="hidden" value="http://metlab.github.io/thanks.html" />
 <input name="skip_Subject" type="hidden" value="Contact Us" />
 <input name="skip_ShowUsersIp" type="hidden" value="1" />
@@ -12,11 +12,13 @@
 <script type="text/javascript">
 function ValidateForm(frm) {
 if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
-if (frm.From.value == "") {alert('Email is required');frm.From.focus();return false;}
+if (frm.From.value == "") {alert('Email address is required.');frm.From.focus();return false;}
 if (frm.From.value.indexOf("@") < 1 || frm.From.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.From.focus();return false;}
 if (frm.Comments.value == "") {alert('Comments are required.');frm.Comments.focus();return false;}
+if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
 return true; }
 function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
 var src = obj.src;
 var date = new Date();
 var pos = src.indexOf('&rad=');
@@ -38,6 +40,17 @@ return false; }
 <td colspan="2" align="center"> <br />
 <table border="0" cellpadding="0" cellspacing="0">
 <tr><td colspan="2" style="padding-bottom:18px;">
+<!-- Please check our ProCaptcha service which is ad-free:
+http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
+<a href="http://www.snaphost.com/captcha" alt="contact form to email" title="contact form to email">
+contact form to email</a></td></tr>
+<tr valign="top"><td> <i>Code*:</i>
+<input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
+</td><td>
+<a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us" title="HTML code for Contact Us form"
+style="margin-left:20px;"
+src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=CJZE8K852SBJ&ImgType=2" /></a><br />
+<a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a> </td></tr>
 <input name="skip_Submit" type="submit" value="Submit" />
 </td></tr>
 </table><br />
