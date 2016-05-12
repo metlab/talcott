@@ -9,8 +9,8 @@
 <script type="text/javascript">
 function ValidateForm(frm) {
 if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
-if (frm.FromEmailAddress.value == "") {alert('Email is required');frm.FromEmailAddress.focus();return false;}
-if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.From.value == "") {alert('Email is required');frm.From.focus();return false;}
+if (frm.From.value.indexOf("@") < 1 || frm.From.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.From.focus();return false;}
 if (frm.Comments.value == "") {alert('Comments are required.');frm.Comments.focus();return false;}
 if (frm.skip_CaptchaCode.value == "") {alert('Enter web form code.');frm.skip_CaptchaCode.focus();return false;}
 return true; }
@@ -29,7 +29,7 @@ return false; }
 <td><input name="Name" type="text" maxlength="60" style="width:350px;" /></td>
 </tr><tr>
 <td><b>Email*:</b></td>
-<td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
+<td><input name="From" type="text" maxlength="60" style="width:350px;" /></td>
 </tr><tr>
 <td><b>Comments*:</b></td>
 <td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
