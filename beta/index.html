@@ -134,7 +134,7 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+ <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:800px;'><div id='gmap_canvas' style='height:300px;width:800px;'></div><div><small><a href="http://embedgooglemaps.com"></a></small></div><div><small><a href="https://termsandcondiitionssample.com">terms and conditions sample</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.811494,-72.79894000000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.811494,-72.79894000000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Location</strong><br>324 Montevideo Rd Avon, CT 06001<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map); </script>
 
     <!-- Footer -->
     <footer>
