@@ -1,6 +1,0 @@
-{
-  "name": "The TMA Meteorology Lab",
-  "tagline": "",
-  "body": "<p>Here is Today's TMA Weather Forecast:</font>\r\n\r\n<i><b>\"Today is expected to be partly cloudy as a low front moves east, out of our state...\"</i></b>\r\n\r\n<a href=\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCTAVON14\"><img src=\"http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=KCTAVON14\" height=\"160\" width=\"160\" border=\"0\" alt=\"Weather Underground PWS KCTAVON14\" /></a>",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
